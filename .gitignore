@@ -112,3 +112,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Don't check in the model! - Or at least, you shouldn't
+models/
+#Don't check in the virtual environment! - Or at least, you shouldn't
+myEnv/
