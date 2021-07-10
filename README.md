@@ -14,17 +14,17 @@ You can use GitHub Desktop to easily clone this - or the command line if you're 
 
 Open up a terminal or cmd/powershell and type
 
-`python -m venv myEnv` or `python3 -m venv myEnv` or possibly `python.exe -m venv myEnv` if your installation is a little strange.
+`python -m venv venv` or `python3 -m venv venv` or possibly `python.exe -m venv venv` if your installation is a little strange.
 
-What this does is it sets up a 'virtual environment' called 'myEnv' which is stored in the myEnv folder. This will contain all the libraries, the python executable etc that is specific to this project.
+What this does is it sets up a 'virtual environment' called 'venv' which is stored in the venv folder. This will contain all the libraries, the python executable etc that is specific to this project.
 
 You can then activate it with:
 
-`myEnv/Scripts/activate`
+`venv/Scripts/activate`
 
-or `source myEnv/Scripts/activate` if you're on a Mac.
+or `source venv/Scripts/activate` if you're on a Mac.
 
-Now, any `pip install` or `python` commands will be installing into/using the myEnv folder!
+Now, any `pip install` or `python` commands will be installing into/using the venv folder!
 
 ### Installing dependencies
 
@@ -36,7 +36,7 @@ Now you can run:
 
 or `pip install -r requirements-mac.txt` if you're on a Mac.
 
-This will read the requirements file and then install the required dependencies into your myEnv folder.
+This will read the requirements file and then install the required dependencies into your venv folder.
 
 ## Run it!
 
